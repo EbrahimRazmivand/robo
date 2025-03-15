@@ -1,9 +1,11 @@
 import requests
 import time
-
 import os
 
 SESSION_ID = os.getenv("SESSION_ID")
+BOT_NAME = os.getenv("BOT_NAME")
+
+print(f"🤖 ربات {BOT_NAME} با سشن {SESSION_ID} شروع به کار کرد!")
 
 # آدرس API روبیکا
 API_URL = "https://messenger.rubika.ir/api"
